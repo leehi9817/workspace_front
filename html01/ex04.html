@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+
+    <body>
+        <p>목차</p>
+        
+        <ol>
+            <li><a href="ex01.html">h1~h2 태그</a></li>
+            <li><a href="ex02.html">p br hr strong em 태그</a></li>
+            <li><a href="ex03.html">ol ul 태그</a></li>
+            <li><a href="ex04.html">img a 태그</a></li>
+        </ol>
+
+        <hr>
+
+        <h1>html 기본태그</h1>
+        <h2>4. a img 태그</h2>
+        <!--
+        <img src="C:\javaStudy\workspace_front\html01\img\jung.jpg">
+        <img src="/javaStudy/workspace_front/html01/img/jung.jpg">
+        <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png">
+        -->
+        
+        <img src="./img/jung.jpg">
+        <img src="./img/subimg/yoo.jpg">
+        <img src="../upimg/yoo.jpg" alt="유재석 사진" width="40px">
+        
+        <br>
+
+        <!--새 탭 만들기
+        _blank: 계속 새 탭 생성
+        특정한 이름: 새 탭 하나 생성하고 해당 탭에서 내용 변경-->
+        <a href="C:\javaStudy\workspace_front\html01\ex01.html" target="view">1번 문서로 이동</a>
+        
+        <br>
+
+        <a href="./ex02.html" target="view">2번 문서로 이동</a>
+        
+        <br>
+
+        <a href="./ex03.html" target="_blank">3번 문서로 이동</a>
+
+        <br>
+
+        <a href="https://www.daum.net/" target="_blank">
+            <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png">
+        </a>
+    </body>
+</html>

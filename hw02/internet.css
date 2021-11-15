@@ -1,0 +1,84 @@
+/* 전체 폰트 설정 */
+
+body, h1, h2, h3, p, ul, ol, li, table, thead, tbody, th, td, tr {
+    font-family: "맑은 고딕";
+    font-size: 17px;
+}
+
+/* 제목 태그 */
+
+h1 { 
+    font-family: 궁서;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+h2 { font-size: 25px;}
+
+h3 { font-size: 20px;}
+
+/* 폰트 색상 */
+
+.blue { color: #0000FF;}
+
+.red { color: #FF0000;}
+
+.green { color: #00FF00;}
+
+/* 폰트 효과 */
+
+.ita { font-style: italic;}
+
+.uline { text-decoration: underline;}
+
+.b { font-weight: bold;}
+
+/* 역사 문단 */
+
+.history {
+    background-color: #D9D9D9;
+}
+
+.history p {
+    text-indent: 30px;
+}
+
+.space { line-height: 35px;}
+
+/* 블릿 설정 */
+
+ul { list-style-type: square;}
+
+ol { list-style-type: none;}
+
+/* 표 설정 */
+
+th { background-color: #C8EBFA;}
+
+#tbl-speed tr:hover { background-color: #EDD3ED;}
+
+.td-speed { text-align: right;}
+
+.td-speed:before { content: "약 ";}
+.td-speed:after { content: " (MB/초)";}
+
+/* 링크 설정 */
+
+#tbl-speed a:link { 
+    color: #000000;
+    text-decoration: none;
+}
+
+#tbl-speed a:visited { 
+    color: #000000;
+}
+
+#tbl-speed a:hover {
+    color: #0000FF;
+    text-decoration: overline;
+}
+
+#tbl-speed a:active {
+    color: #0000FF;
+    text-decoration: underline;
+}

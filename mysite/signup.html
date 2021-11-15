@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>이혜인의 홈페이지 입니다.</title>
+    <link rel="stylesheet" href="./assets/css/mysite.css">
+    <link rel="stylesheet" href="./assets/css/board.css">
+</head>
+
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- header -->
+        <div id="header" class="clearfix">
+            <h1><a href="">MySite</a></h1>
+            <ul>
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+            </ul>
+        </div>
+        <!-- /header -->
+
+        <!-- nav -->
+        <div id="nav">
+            <ul class="clearfix">
+                <li>입사지원서</li>
+                <li>게시판</li>
+                <li>갤러리</li>
+                <li>방명록</li>
+            </ul>
+        </div>
+        <!-- /nav -->
+
+        <!-- contents2 -->
+        <div id="contents2" class="clearfix">
+            <!-- aside -->
+            <div id="aside">
+                <h2>게시판</h2>
+
+                <ul>
+                    <li>일반 게시판</li>
+                    <li>댓글 게시판</li>
+                    <li>첨부 게시판</li>
+                </ul>
+            </div>
+            <!-- /aside -->
+
+            <!-- main -->
+            <div id="main">
+                <div id="main-header" class="clearfix">
+                    <h2>일반게시판</h2>
+
+                    <ul>
+                        <li>홈</li>
+                        <li>게시판</li>
+                        <li class="last">일반게시판</li>
+                    </ul>
+                </div>
+
+                <div id="signup">
+                    <div class="form-group">
+                        <label class="form-title">아이디</label>
+                        <input id="txt-id" class="txt-box" type="text" name="" value="" placeholder="아이디를 입력하세요">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-title">패스워드</label>
+                        <input id="txt-pw" class="txt-box" type="pasword" name="" value="" placeholder="패스워드를 입력하세요">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-title">이름</label>
+                        <input id="txt-name" class="txt-box" type="text" name="" value="" placeholder="이름을 입력하세요">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-title">프로필사진</label>
+                        <input id="file-photo" type="file" name="" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <span class="form-title">주소</span>
+                        <input id="txt-post" class="txt-box" type="text" name="" value="" placeholder="우편번호">
+                        <button type="submit">우편번호찾기</button>
+                        <div id="box-adr">
+                            <input id="txt-adr" type="text" name="" value="" placeholder="주소">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="form-title">이동통신사</span>
+
+                        <select name="">
+                            <option value="">선택해주세요</option>
+                            <option value="">SKT</option>
+                            <option value="">KT</option>
+                            <option value="">LG</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="form-title">나이</span>
+
+                        <label for="rdo-10">10대</label>
+                        <input id="rdo-10" type="radio" name="age" value="">
+                        <label for="rdo-20">20대</label>
+                        <input id="rdo-20" type="radio" name="age" value="">
+                        <label for="rdo-30">30대</label>
+                        <input id="rdo-30" type="radio" name="age" value="">
+                        <label for="rdo-40">40대</label>
+                        <input id="rdo-40" type="radio" name="age" value="">
+                        <label for="rdo-etc">기타</label>
+                        <input id="rdo-etc" type="radio" name="age" value="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <span class="form-title">취미</span>
+
+                        <label for="chk-book">독서</label>
+                        <input id="chk-book" type="checkbox" name="hobby" value="">
+                        <label for="chk-music">음악</label>
+                        <input id="chk-music" type="checkbox" name="hobby" value="">
+                        <label for="chk-trip">여행</label>
+                        <input id="chk-trip" type="checkbox" name="hobby" value="">
+                        <label for="chk-movie">영화</label>
+                        <input id="chk-movie" type="checkbox" name="hobby" value="">
+                        <label for="chk-coding">코딩</label>
+                        <input id="chk-coding" type="checkbox" name="hobby" value="">
+                        <label for="chk-etc">기타</label>
+                        <input id="chk-etc" type="checkbox" name="hobby" value="">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-title vc">자기소개</label>
+                        <textarea id="text-content"></textarea>
+                    </div>
+
+                    <div id="btn-area">
+                        <button type="submit">등록</button>
+                        <button type="reset">초기화</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /main -->
+        </div>
+        <!-- /contents2 -->
+
+        <div id="footer">
+            Copyright (c) 2021 이혜인. All right reserved
+        </div>
+    </div>
+    <!-- /wrap -->
+</body>
+</html>

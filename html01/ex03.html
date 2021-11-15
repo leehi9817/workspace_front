@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+
+    <body>
+        <p>목차</p>
+
+        <ol>
+            <li><a href="ex01.html">h1~h2 태그</a></li>
+            <li><a href="ex02.html">p br hr strong em 태그</a></li>
+            <li><a href="ex03.html">ol ul 태그</a></li>
+            <li><a href="ex04.html">img a 태그</a></li>
+        </ol>
+
+        <hr>
+
+        <h1>html 기본태그</h1>
+        <h2>3. ol ul</h2>
+        
+        <p>
+            ol 태그: 순서가 필요한 목록(ordered list)을 만들때 사용합니다.
+            li 태그와 같이 사용합니다.
+        </p>
+
+        <p>
+            ul 태그: 순서 없는 목록(unordered list)을 만들때 사용합니다.
+            li 태그와 같이 사용합니다.
+        </p>
+
+        <strong>* 리스트 내부에 리스트를 사용할 수 있습니다.</strong>
+
+        <hr>
+
+        <h3>3-1 신입사원 채용절차(순차적 리스트)</h3>
+        <!--순서가 중요할 때-->
+        <ol>
+            <li>입사지원</li>
+            <li>서류전형</li>
+            <li>1차면접</li>
+            <li>적성검사</li>
+            <li>최종면접</li>
+            <li>신체검사</li>
+        </ol>
+
+        <h3>3-2 풀스택 교육과목(비순차적 리스트)</h3>
+        <!--순서가 관계 없을 때-->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA</li>
+            <li>Oracle</li>
+            <li>JavaScript</li>
+            <li>Spring Framework</li>
+        </ul>
+
+        <h3>3-3 신입사원 채용절차(순차적 + 비순차적 리스트)</h3>
+        <!--리스트 내부에 리스트 생성-->
+        <ol>
+            <li>입사지원</li>
+                <ul>
+                    <li>이력서</li>
+                        <ul>
+                            <li>업무소개</li>
+                            <li>프로젝트 이력</li>
+                                <ul>
+                                    <li>프로젝트 명</li>
+                                    <li>진행 기간</li>
+                                </ul>
+                        </ul>
+                    <li>자기소개서</li>
+                    <li>경력기술서</li>
+                </ul>
+            <li>서류전형</li>
+            <li>1차면접</li>
+            <li>적성검사</li>
+            <li>최종면접</li>
+            <li>신체검사</li>
+        </ol>
+    </body>
+</html>

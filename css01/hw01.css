@@ -1,0 +1,43 @@
+/* 태그 선택자 */
+th {background-color: #BFBFBF;}
+
+/* 클래스 선택자 */
+.green {color: #00FF00;}
+
+/* 아이디 선택자 */
+#blue {color: #0000FF;}
+
+/* 종속 선택자 */
+h2.red {
+    color: #FF0000;
+    font-size: 25px;
+}
+
+/* 하위 선택자 */
+/* body ul {
+    color: #0000FF;
+} */
+
+/* 자식 선택자 */
+body>ul {
+    color: orange;
+}
+
+/* 그룹 선택자 */
+thead>tr>th, h3.pink, p.pink {
+    color: fuchsia;
+}
+
+/* 속성 선택자 */
+a[target="_blank"] {
+    background-color: rosybrown;
+}
+
+/* 가상 클래스 */
+tbody>tr:hover {
+    background-color: skyblue;
+}
+
+/* 가상 요소 */
+h2:before {content: "#";}
+h2:after {content: "😎";}

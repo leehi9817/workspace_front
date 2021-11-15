@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* 게시판리스트 */
+#main-search {
+    float: right;
+    margin: 30px 0px 15px 0px;
+}
+
+#main-search #txt-search {
+    border: 1px solid #cecece;
+    border-radius: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+#main-search #btn-search {
+    font-size: 12px;
+    border: 1px solid #a6a6a6;
+    border-radius: 0px;
+    background-color: #dddddd;
+    padding: 5px 15px 5px 15px;
+}
+
+#main-board table {
+    float: left;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+#main-board table>thead>tr>th {
+    background-color: #dddddd;
+    padding: 10px 0px 10px 0px;
+}
+
+#main-board table>tbody>tr>td {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#main-board table>tbody>tr {
+    border-top: 1px dotted #a6a6a6;
+}
+
+#main-board table>thead>tr {
+    border-top: 1px solid #a6a6a6;
+}
+
+#main-board table>tbody>tr.last {
+    border-bottom: 1px solid #a6a6a6;
+}
+
+#main-footer {
+    margin: 10px 0px 0px 0px;
+}
+
+#main-footer ol {
+    float: left;
+    margin: 0px 0px 0px 280px;
+}
+
+#main-footer ol>li {
+    float: left;
+    margin: 10px 5px 10px 5px;
+}
+
+#main-footer #btn-write {
+    float: right;
+    font-size: 12px;
+    border: 1px solid #a6a6a6;
+    border-radius: 0px;
+    background-color: #dddddd;
+    padding: 5px 15px 5px 15px;
+}
+
+/* 게시판글쓰기 */
+#bWrite .form-group {
+    padding: 5px 0px 5px 0px;
+}
+
+#bWrite #boardType {
+    height: 25px;
+}
+
+#bWrite #txt-title {
+    width: 700px;
+    height: 20px;
+}
+
+#bWrite #txt-password {
+    width: 200px;
+    height: 20px;
+}
+
+#bWrite .form-text {
+    display: inline-block;
+    width: 80px;
+}
+
+#bWrite input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#bWrite input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0px 15px 0px 0px;
+}
+
+#bWrite #text-content {
+    width: 785px;
+    height: 300px;
+}
+
+#bWrite .btn-area {
+    border-top: 1px solid #e6e6e6;
+    padding: 12px 5px 12px 5px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+#bWrite .btn {
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+#bWrite .btn:hover {
+    background-color: #d9d9d9;
+}
+
+
+/* 회원가입 */
+#signup .form-group {
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+#signup .form-title {
+    display: inline-block;
+    width: 80px;
+}
+
+#signup .txt-box {
+    width: 150px;
+    height: 18px;
+    border: 1px solid #a6a6a6;
+}
+
+#signup #box-adr {
+    margin: 5px 0px 0px 84px;
+}
+
+#signup #txt-adr {
+    width: 600px;
+    height: 18px;
+    border: 1px solid #a6a6a6;
+}
+
+#signup input[type="radio"] {
+    margin: 0px 10px 0px 0px;
+}
+
+#signup input[type="checkbox"] {
+    margin: 0px 10px 0px 0px;
+}
+
+#signup #text-content {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #a6a6a6;
+}
+
+#signup #btn-area {
+    text-align: center;
+    margin: 20px 0px 0px 20px;
+}
+
+#signup #btn-area button {
+    width: 60px;
+    border: 1px solid #a6a6a6;
+    border-radius: 1px;
+    background-color: #dddddd;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+#signup #btn-area button:hover {
+    background-color: #cecece;
+}
+
+.vc {
+    vertical-align: top;
+    /* height: 300px;
+    line-height: 300px; */
+}
+
+/* 게시판보기 */
+
+
+/* 게시판수정 */
+
+

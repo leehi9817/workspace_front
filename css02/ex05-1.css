@@ -1,0 +1,25 @@
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #ffff00;
+}
+
+.btn-gray {
+    background-color: lightgray;
+    border-color: gray 
+}
+
+.btn-pink {
+    background-color: pink;
+    border-color: hotpink;
+}
+
+.btn-blue {
+    background-color: skyblue;
+    border-color: lightblue;
+}
